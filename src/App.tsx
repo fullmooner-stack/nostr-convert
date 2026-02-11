@@ -1,5 +1,4 @@
 import {
-  batch,
   createEffect,
   createSignal,
   For,
@@ -18,7 +17,6 @@ import {
   type TLV,
 } from "./nostr-cryptography/nip19-singles-tuples";
 
-console.log("npub1z2c8x4cqmuafe4evud2lnp8g6l7h06vr6f6nxen3sweergsttjjs6gq2jj");
 const forms = {
   nip5: 'username/"nip5"',
   npub: "npub",
@@ -96,7 +94,7 @@ function App() {
   const [to, setTo] = createSignal<string>("");
   const [from, setFrom] = createSignal<string>("");
 
-  const [enabledSources, setEnabledSources] = createSignal(sources);
+  const [enabledSources] = createSignal(sources);
   const [enabledTargets, setEnabledTargets] = createSignal(targets);
 
   const [data, setData] = createSignal<{
@@ -1032,22 +1030,22 @@ function LabeledToggle(props: LabeledToggle) {
   );
 }
 
-function startsWithOrSubset(str: string, prefix: string) {
-  // Check if the string starts with the prefix
-  if (str.startsWith(prefix)) {
-    return true;
-  }
+// function startsWithOrSubset(str: string, prefix: string) {
+//   // Check if the string starts with the prefix
+//   if (str.startsWith(prefix)) {
+//     return true;
+//   }
 
-  // Check for subsets
-  const prefixLength = prefix.length;
-  for (let i = 0; i <= str.length - prefixLength; i++) {
-    if (str.substring(i, i + prefixLength) === prefix) {
-      return true;
-    }
-  }
+//   // Check for subsets
+//   const prefixLength = prefix.length;
+//   for (let i = 0; i <= str.length - prefixLength; i++) {
+//     if (str.substring(i, i + prefixLength) === prefix) {
+//       return true;
+//     }
+//   }
 
-  return false;
-}
+//   return false;
+// }
 
 export type Nip05 = `${string}@${string}`;
 
