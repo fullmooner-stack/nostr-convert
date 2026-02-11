@@ -2,7 +2,7 @@
   "name": "Nostr Convert",
   "short_name": "NC",
   "description": "nostr bech32 and nip-5 converter/builder",
-  "start_url": "/",
+  "start_url": "/nostr-convert",
   "theme_color": "#242424",
   "background_color": "#fff",
   "display": "standalone",
