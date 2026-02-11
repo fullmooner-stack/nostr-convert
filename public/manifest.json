@@ -8,32 +8,32 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "./src/asset/nostr_48.png",
+      "src": "nostr_48.png",
       "sizes": "48x48"
     },
     {
-      "src": "./src/asset/nostr_192.png",
+      "src": "nostr_192.png",
       "sizes": "192x192"
     },
     {
-      "src": "./src/asset/nostr_512.png",
+      "src": "nostr_512.png",
       "sizes": "512x512"
     }
   ],
   "screenshots": [
     {
-      "src": "./src/asset/nostr_convert__desktop.png",
+      "src": "nostr_convert__desktop.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "./src/asset/nostr_convert__ipad_mini.png",
+      "src": "nostr_convert__ipad_mini.png",
       "sizes": "1536x2048",
       "type": "image/png"
     },
     {
-      "src": "./src/asset/nostr_convert__iphone_se.png",
+      "src": "nostr_convert__iphone_se.png",
       "sizes": "750x1333",
       "type": "image/png"
     }
