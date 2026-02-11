@@ -3,37 +3,37 @@
   "short_name": "NC",
   "description": "nostr bech32 and nip-5 converter/builder",
   "start_url": "/",
-  "theme_color": "#7c3aed",
+  "theme_color": "#242424",
   "background_color": "#fff",
   "display": "standalone",
   "icons": [
     {
-      "src": "nostr_48.png",
+      "src": "./src/asset/nostr_48.png",
       "sizes": "48x48"
     },
     {
-      "src": "nostr_192.png",
+      "src": "./src/asset/nostr_192.png",
       "sizes": "192x192"
     },
     {
-      "src": "nostr_512.png",
+      "src": "./src/asset/nostr_512.png",
       "sizes": "512x512"
     }
   ],
   "screenshots": [
     {
-      "src": "nostr_convert__desktop.png",
+      "src": "./src/asset/nostr_convert__desktop.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "nostr_convert__ipad_mini.png",
+      "src": "./src/asset/nostr_convert__ipad_mini.png",
       "sizes": "1536x2048",
       "type": "image/png"
     },
     {
-      "src": "nostr_convert__iphone_se.png",
+      "src": "./src/asset/nostr_convert__iphone_se.png",
       "sizes": "750x1333",
       "type": "image/png"
     }
