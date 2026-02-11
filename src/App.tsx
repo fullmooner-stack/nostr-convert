@@ -552,7 +552,7 @@ function App() {
           border: "1px solid rgba(255, 255, 255, 0.1)",
         }}
       >
-        <h2
+        {/* <h2
           style={{
             margin: "0 0 1rem 0",
             "font-size": "1.25rem",
@@ -560,7 +560,7 @@ function App() {
             "font-weight": "600",
           }}
           innerText={"From"}
-        />
+        /> */}
         <form id="convert" onSubmit={(e) => (e.preventDefault(), convert())} />
         <input
           style={{
