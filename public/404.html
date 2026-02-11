@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Get the current path and redirect to index.html with the path as a query parameter
+      const path = window.location.pathname.slice(1);
+      const query = window.location.search;
+
+      // Redirect to index.html with the path encoded
+      window.location.replace(
+        window.location.origin +
+          window.location.pathname.split("/").slice(0, -1).join("/") +
+          "/?p=/" +
+          path +
+          query,
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
