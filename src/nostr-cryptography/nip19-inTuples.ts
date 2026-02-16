@@ -118,6 +118,9 @@ export type TLV = {
   value: Uint8Array;
 };
 
+export const nip19_entry_REGEX =
+  /^(npub1[023456789acdefghjklmnpqrstuvwxyz]*|nprofile1[023456789acdefghjklmnpqrstuvwxyz]*|nsec1[023456789acdefghjklmnpqrstuvwxyz]*|note1[023456789acdefghjklmnpqrstuvwxyz]*|nevent1[023456789acdefghjklmnpqrstuvwxyz]*|naddr1[023456789acdefghjklmnpqrstuvwxyz]*|npub|nprofile|nsec|note|nevent|naddr|npu|npro|nprof|nprofi|nprofil|nse|not|neve|neven|nad|nadd|np|npr|ns|no|ne|na|n)$/;
+
 const Bech32_Encode_Limit = 1000;
 
 export function encodeString(

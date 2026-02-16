@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Bubblewrap / Android build files
+android/
+*.apk
+*.aab
+*.keystore
+*.jks
+local.properties
+.gradle/
+build/
